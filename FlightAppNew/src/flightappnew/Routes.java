@@ -74,54 +74,6 @@ public class Routes {
     public void setPrice(double price) {
         this.price = price;
     }
-
-    public int getCaptains() {
-        return pilots;
-    }
-
-    public void setCaptains(int pilots) {
-        this.pilots = pilots;
-    }
-
-    public int getCrew() {
-        return crew;
-    }
-
-    public void setCrew(int crew) {
-        this.crew = crew;
-    }
-
-    public int getBoarding() {
-        return boarding;
-    }
-
-    public void setBoarding(int boarding) {
-        this.boarding = boarding;
-    }
-
-    public int getLounge() {
-        return lounge;
-    }
-
-    public void setLounge(int lounge) {
-        this.lounge = lounge;
-    }
-
-    public int getBaggage() {
-        return baggage;
-    }
-
-    public void setBaggage(int baggage) {
-        this.baggage = baggage;
-    }
-
-    public double getStaff() {
-        return staffCost;
-    }
-
-    public void setStaff(double staffCost) {
-        this.staffCost = staffCost;
-    }
     
     public void addTicket(){
         

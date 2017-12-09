@@ -38,5 +38,11 @@ public class BusinessTicket extends StandardTicket {
         this.priorityBoarding = priorityBoarding;
     }
     
+    @Override
+    public String printTicketDetails(){
+        return super.printTicketDetails()+"Lounge Access: " + loungeAccess + "\n"
+               +"Priority Boarding: " + priorityBoarding + "\n";
+    }
+    
     
 }

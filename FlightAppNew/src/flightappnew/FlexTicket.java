@@ -37,6 +37,12 @@ public class FlexTicket extends StandardTicket {
 
     public void setBaggageAllowance(Boolean baggageAllowance) {
         this.baggageAllowance = baggageAllowance;
-    }    
+    }   
+    
+    @Override
+    public String printTicketDetails(){
+        return super.printTicketDetails()+"In-Flight Meal: " + inFligthMeal + "\n"
+               +"Baggage Allowance: " + baggageAllowance + "\n";
+    }
     
 }

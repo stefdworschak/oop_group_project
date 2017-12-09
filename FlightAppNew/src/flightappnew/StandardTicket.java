@@ -58,5 +58,10 @@ public class StandardTicket implements Serializable {
     public void setPrice(double price) {
         this.price = price;
     }
-    
+    public String printTicketDetails(){
+        return "Route Number: " + routeNo + "\n"
+               +"Flight Number: " + flightNo + "\n"
+               +"Passenger Count: " + passengerCount + "\n"
+               +"Ticket Price: " + price + "\n";
+    }
 }

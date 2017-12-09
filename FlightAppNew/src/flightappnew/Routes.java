@@ -126,7 +126,7 @@ public class Routes {
         }       
         
         //Add ticket price to revenue
-        revenue += price;
+        revenue += price*numPassenger;
         
     }
     
